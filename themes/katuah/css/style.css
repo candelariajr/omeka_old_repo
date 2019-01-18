@@ -1,0 +1,42 @@
+body{background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{display:none}
+div#exhibit-page-navigation{display:none}
+nav#exhibit-pages{display:none}
+
+div.row.parallax {background-repeat:no-repeat;background-attachment:fixed;background-size:contain;height:1800px;padding-top:300px}
+
+@media (max-width: 1024px){div.row.parallax{background-attachment:scroll;height:1650px}}
+
+div.row.parallax div.text {background-color:rgba(255, 255, 255, 0.95);padding:20px;}
+
+div.row.parallax:nth-child(1) {background-image:url("/themes/katuah/images/logCabin.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(2) {background-image:url("/themes/katuah/images/CherokeeDrawing.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(3) {background-image:url("/themes/katuah/images/trees.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(4) {background-image:url("/themes/katuah/images/childBlowingDandelion.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(5) {background-image:url("/themes/katuah/images/blackBears.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(6) {background-image:url("/themes/katuah/images/chestnutTree.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(7) {background-image:url("/themes/katuah/images/dove.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(8) {background-image:url("/themes/katuah/images/childTree.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(9) {background-image:url("/themes/katuah/images/economy.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(10) {background-image:url("/themes/katuah/images/council.jpg");background-position:center 0}
+
+div.row.parallax:nth-child(11) {background-image:url("/themes/katuah/images/index.jpg");background-position:center 0}
+
+// Add your custom CSS here
+
+img {
+    max-width: 100%;
+}
